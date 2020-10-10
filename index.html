@@ -7,6 +7,15 @@
          img{
              border: 3px dashed rgb(255, 0, 242);
              border-radius: 50%;
+             float:left;
+         }
+          h1{
+             color: brown;
+             font-style: italic;
+             font-family: 'Courier New', Courier, monospace;
+         }
+         p{
+             color: rgb(0, 0, 0);
          }
              </style>
     </head>
@@ -14,7 +23,11 @@
     <h2>Rounded Image</h2>
         <img src="https://i0.wp.com/wp.laravel-news.com/wp-content/uploads/2019/10/hacktoberfest.jpg?fit=2200%2C1100&ssl=1?resize=2200%2C1125" width="300px" height="300px">
      <div>
-         
+          <p>
+            One of the largest performance drawbacks comes with bloated file sizes and unnecessary browser rendering. One quick way to help largely cut down on CSS file sizes is to reuse styles as much as possible. Any repeating styles or interface patterns should be combined, allowing code to be shared. If two modules share a background, rounded corners, and a box shadow there is no reason to explicitly state those same styles twice. Instead they can be combined, within a single class, allowing the styles to be written once and then shared.
+
+            Reusing code doesn’t have to come at the cost of semantics either. One technique would be to pair selectors together, separating them with a comma, allowing the same styles to be inherited across two selectors. Another approach, often seen within the OOCSS and SMACSS methodologies previously mentioned, includes binding styles to one class, then using multiple classes on the same element.
+        </p>
      </div>
     </body>
 </html>
